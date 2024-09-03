@@ -1,9 +1,16 @@
+import Header from "./header"
+import Footer from "./footer"
+import Container from '@mui/material/Container';
+
+
 export default function Layout({children}) {
     return (
         <>
-            <h1>레이아웃</h1>
-            
-            <div>{children}</div>
+        <Header></Header>
+            <Container fixed>
+                <div>{children}</div>
+            </Container>
+            <Footer></Footer>
         </>
     )
 }
