@@ -17,6 +17,10 @@ export default function Animation(){
             />
         </div>
 
-
+        // <Lottie
+        //     loop
+        //     animationData={lottiejson}
+        //     play
+        // />
     )
 }
